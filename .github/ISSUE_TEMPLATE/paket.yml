@@ -1,0 +1,39 @@
+name: Paket
+description: Ein Arbeitspaket, von einer Person geschrieben, bevor jemand daran arbeitet.
+title: "Paket: "
+body:
+  - type: textarea
+    id: was-existiert
+    attributes:
+      label: Was am Ende existiert
+      description: Eine Tabelle, eine Regel, ein Schritt oder ein Text. Ein bis zwei Sätze, kein Wie.
+    validations:
+      required: true
+  - type: textarea
+    id: frage
+    attributes:
+      label: Welcher Frage es dient
+      description: Die Entscheidung (DC-01 …), die Informationsanforderung (IR-01 …) oder der Befund (PR-xx), zu dem das Paket gehört.
+    validations:
+      required: true
+  - type: textarea
+    id: fertig-wenn
+    attributes:
+      label: Fertig, wenn
+      description: Was jemand anderes ausführt oder liest, um zu sehen, dass es fertig ist. Mit Sollwert, wenn es einen gibt, vor der Arbeit festgelegt.
+    validations:
+      required: true
+  - type: textarea
+    id: art-umfang
+    attributes:
+      label: Art und Umfang
+      description: Herausfinden, behalten oder härten, und ungefähr wie viele Zeilen. Mehr als etwa 200 braucht eine Begründung.
+    validations:
+      required: true
+  - type: textarea
+    id: nicht-dabei
+    attributes:
+      label: Nicht dabei
+      description: Was das Paket nicht tut, besonders der verlockende nächste Schritt.
+    validations:
+      required: true
