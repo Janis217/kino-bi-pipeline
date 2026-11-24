@@ -1,0 +1,8 @@
+# Keine Daten und keine Zugangsdaten im Repo
+*.csv
+*.xlsx
+*.parquet
+*.json
+!.github/**/*.json
+.env
+.DS_Store
